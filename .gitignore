@@ -1,0 +1,44 @@
+# Game Crash Dumps & Logs
+crash.dmp
+output_log.txt
+*.dmp
+*.log
+
+# Game Save/Config Files
+*.rec
+tower3d.bat*
+cream_api.ini
+
+# Large Game Assets (handled by Github LFS or excluded)
+tower3d_Data/
+mmwindow_Data/
+tower3d_Data/
+sharedassets*.assets*
+level*.resS
+resources.assets.resS
+
+# Training/Testing Artifacts
+test_*.jpg
+test_*.png
+test_*.bmp
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if running bot from here)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
