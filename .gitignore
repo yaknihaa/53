@@ -18,20 +18,10 @@ tower3d.bat*
 cream_api.ini
 steam_appid.txt
 
-# Large Game Assets (handled by Github LFS or excluded)
+# Optional heavy content to keep out of this repo
 Extensions/
-tower3d_Data/
 mmwindow_Data/
 mmwindow/
-Managed/
-Mono/
-Resources/
-StreamingAssets/
-TowerSpeak/
-Plugins/
-sharedassets*.assets*
-level*.resS
-resources.assets.resS
 
 # Installation & Setup Files
 Install.txt
