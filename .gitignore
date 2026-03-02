@@ -1,21 +1,44 @@
-# Game Crash Dumps & Logs
+# Game Crash Dumps, Logs & Error Reports
 crash.dmp
+error.log
 output_log.txt
 *.dmp
 *.log
+20*/  # Crash/error dated folders (e.g., 2026-02-24_005656/)
+Backup/
+
+# Game Executables & DLLs
+tower3d.exe
+steam_api*.dll
+steam_api64*.dll
 
 # Game Save/Config Files
 *.rec
 tower3d.bat*
 cream_api.ini
+steam_appid.txt
 
 # Large Game Assets (handled by Github LFS or excluded)
+Extensions/
 tower3d_Data/
 mmwindow_Data/
-tower3d_Data/
+mmwindow/
+Managed/
+Mono/
+Resources/
+StreamingAssets/
+TowerSpeak/
+Plugins/
 sharedassets*.assets*
 level*.resS
 resources.assets.resS
+
+# Installation & Setup Files
+Install.txt
+SKIDROWRELOADED.COM.txt
+Concorde Flight Schedule.txt
+Wildcard\ Tower\ 3D\ mod.rtf
+*.rtf
 
 # Training/Testing Artifacts
 test_*.jpg
@@ -42,3 +65,4 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
